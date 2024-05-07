@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+   
+}
+
+header {
+  width: 100%;
+  height: 750px;
+  background-image:url(pexels-sebastian-sørensen-750225.jpg);
+  backface-visibility: inherit;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section {
+    margin-top:-50px;
+    /* margin-left: -360px; */ 
+    color: #e8e4ee80;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  
+nav {
+  width: 100%;
+  height: 15vh;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+nav .logo {
+  width: 25%;
+  text-align: center;
+}
+
+nav .menu {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav .menu a {
+  width: 25%;
+  text-decoration: none;
+  color: rgb(240, 234, 234);
+  font-weight: bold;
+}
+
+nav .menu a:hover {
+  color: #00b894;
+  text-decoration: double;
+}
+.container{
+    background: transparent;
+}
+.calculator{
+    border: 6px solid #848282;
+    padding: 5px;
+    border-radius: 16px;
+    /* background: transparent;  */
+    /* box-shadow: 0px 3px 15px rgba(19, 217, 174, 0.5); */
+    background: linear-gradient(45deg, #0a0a0a, #3a4452) ;
+}
+
+input{
+    width: 320px;
+    border: none;
+    padding: 24px;
+    margin: 10px;
+    background: transparent;
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color: #e8e4ee80;
+}
+
+input::placeholder{
+    color: #d5f3f6;
+}
+
+.button:hover{
+    text-decoration:double;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.button{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background: transparent;
+    color: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: -8px -8px 15px rgba(175, 185, 192, 0.1);
+}
+
+.equalBtn{
+    background-color: #fb7c14;
+}
+
+.operator{
+    color: #11150d;
+    background-color:burlywood;
+}
+
+#history{
+  background-color: #b57272;
+  font-size: 56px;
+  text-align: center;
+  color: rgb(81, 18, 77);
+  height: 555px;
+}
+
+#history #para{
+   background-color: #d5f3f6;
+   color: #0a0a0a;
+   font-size: 25px;
+}
