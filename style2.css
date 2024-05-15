@@ -15,7 +15,7 @@ nav ul li a:hover {
   border-bottom: 2px solid #00000036;
 }
 body {
-  background: #efd7a1;
+  background: #dec383;
 }
 .container {
   position: absolute;
@@ -293,7 +293,7 @@ input:valid ~ label {
   text-decoration: none;
 }
 .sign p > a:hover {
-  color: black;
+  color: brown;
   text-decoration: underline;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 820px) {
