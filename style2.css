@@ -293,7 +293,7 @@ input:valid ~ label {
   text-decoration: none;
 }
 .sign p > a:hover {
-  color: brown;
+  color: black;
   text-decoration: underline;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 820px) {
