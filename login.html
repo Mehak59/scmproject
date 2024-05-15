@@ -1,153 +1,35 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" href="styles/style2.css" />
-    <link
-      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <div class="desktop-display">
-      <div class="header">
-        <nav>
-          <div class="logo">
-            <img
-              src="C:\Users\HP\Downloads\download (1).jpg"
-              width="100px"
-              height="100px"
-            />
-          </div>
-          <ul>
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="events.html">EVENTS</a></li>
-            <li><a href="home.html">CREATE YOUR OWN TIMER</a></li>
-            <li><a href="contactus.html">CONTACT US</a></li>
-          </ul>
-        </nav>
-      </div>
-      <div class="container">
-        <div class="content">
-          <div class="text">
-            <h2>WELCOME<br /><span> To The Best Countdown Timer </span></h2>
-            <p>
-              It will help you effectively manage time for various<br />
-              tasks and activities.
-            </p>
-          </div>
-        </div>
-        <div class="loginbox">
-          <div class="form-box login">
-            <form action="#">
-              <h2>SIGN IN</h2>
-              <div class="input">
-                <span class="icon"><i class="bx bx-user"></i></span>
-                <input type="text" required />
-                <label>USERNAME</label>
-              </div>
-              <div class="input">
-                <span class="icon"><i class="bx bxs-lock-alt"></i></span>
-                <input type="password" required />
-                <label>PASSWORD</label>
-              </div>
-              <div class="rememberandforget">
-                <label> <input type="checkbox" />Remember me</label>
-                <a href="forgot.html">Forgot password?</a>
-              </div>
-              <button type="submit" class="subbutton">SIGN IN</button>
-              <div class="loginandregister">
-                <p>
-                  Don't have an account?<a href="#" class="register-link"
-                    >Sign up</a
-                  >
-                </p>
-              </div>
-            </form>
-          </div>
-          <div class="form-box register">
-            <form action="#">
-              <h2>SIGN UP</h2>
-
-              <div class="input">
-                <span class="icon"><i class="bx bx-envelope"></i></span>
-                <input type="email" required />
-                <label>EMAIL</label>
-              </div>
-              <div class="input">
-                <span class="icon"><i class="bx bx-user"></i></span>
-                <input type="text" required />
-                <label>USERNAME</label>
-              </div>
-              <div class="input">
-                <span class="icon"><i class="bx bxs-lock-alt"></i></span>
-                <input type="password" required />
-                <label>PASSWORD</label>
-              </div>
-              <div class="rememberandforget">
-                <label>
-                  <input type="checkbox" />I Agree To Terms and
-                  Conditions</label
-                >
-              </div>
-              <button type="submit" class="subbutton">SIGN UP</button>
-              <div class="loginandregister">
-                <p>
-                  Already have an account?<a href="#" class="login-link"
-                    >Sign in</a
-                  >
-                </p>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="ipad-display">
-      <div class="header">
-        <nav>
-          <ul id="menuList">
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="events.html">EVENTS</a></li>
-            <li><a href="home.html">CREATE YOUR OWN TIMER</a></li>
-            <li><a href="contactus.html">CONTACT US</a></li>
-          </ul>
-          <div class="menu">
-            <img
-              src="C:\Users\HP\Downloads\hamburger-button-computer-icons-menu-bar-line-8c68d41d5c8222dbe1ec162bdbcf7462.png"
-              onclick="togglemenu()"
-              width="100px"
-              height="100px"
-            />
-          </div>
-        </nav>
-      </div>
-      <div class="loginform">
-        <h2>
-          <center>LOGIN</center>
-        </h2>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login- Calculator</title>
+    <link rel="icon" type="image" href="/user_icon-icons.com_57997.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" text="text/css" href="login style.css">
+</head>
+<body>
+    <main>
+        <h2>Login</h2>
         <form>
-          <div class="group">
-            <input type="text" required />
-            <label>Username </label><br />
-          </div>
-          <div class="group">
-            <input type="password" required />
-            <label>Password </label><br />
-          </div>
-          <div class="remember">
-            <p>
-              <input type="checkbox" /><label>Remember me</label
-              ><a href="forgetpassword.html">Forgot Password?</a>
-            </p>
-          </div>
-          <input id="submit" type="button" value="Login" />
-          <div class="sign">
-            <p>Don't have a account?<a href="register.html">Register</a></p>
-          </div>
+        <div class="input-box">
+            
+            <input type="email" Placeholder="E-mail">
+            <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+        </div>
+        <div class="input-box">
+            <span class="icon"><i class="fa-solid fa-lock"></i></span>
+            <input type="password" Placeholder="Password">
+        </div>
+        <div class="remfor">
+            <label><input type="checkbox" name="remember" id="me">Remember me</label>
+            <a href="#" target="_self">Forget Password?</a>
+        </div>
+           <button class="btn">Login</button>
+        <div class="reg">
+            Don't have an account? <a href="create account.html" target="_blank">Register</a>
+        </div>
         </form>
-      </div>
-    </div>
-    <script src="js files/script1.js"></script>
-    <script src="js files/script.js"></script>
-  </body>
+    </main>
+</body>
 </html>
